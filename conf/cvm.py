@@ -14,11 +14,3 @@ if __name__ == '__main__':
     name = Cvm(secretId, secretKey)
     print(name.requestHost)
 
-    # config = {
-    #     'Region': 'gz',
-    #     'SecretId': 'AKIDncWHFWiqpFHSkHiNUniE2BLFM93cwou',
-    #     'secretKey': b'rHCAxuRIiQKsU1yQ6DSdMijRcFD8ENnv',
-    #     'method': 'GET'
-    # }
-    # base = Base(config)
-    # print(base.print_lol())
